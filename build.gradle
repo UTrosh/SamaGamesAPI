@@ -18,20 +18,9 @@ compileJava.options.encoding = 'UTF-8'
 repositories {
     mavenCentral()
 
+   
     maven {
-        url "http://maven.samagames.net/developpers/"
-        credentials {
-            username sguser
-            password sgpass
-        }
-    }
-
-    maven {
-        url "http://maven.samagames.net/network/"
-        credentials {
-            username sguser
-            password sgpass
-        }
+        url "http://maven.elmakers.com/repository/"
     }
 }
 
